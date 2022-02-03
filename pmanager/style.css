@@ -1,0 +1,137 @@
+/* index page */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#bg-img {
+  background-image: url("./raw/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#myNav {
+  background-color: #d0eaef;
+  border-bottom: 2px solid lightgrey;
+}
+
+.nav-link:hover {
+  background-color: lightgrey;
+  border-radius: 10%;
+}
+
+#cards {
+  padding-top: 50px;
+}
+
+#bubble {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 20%;
+  height: 37%;
+  background-color: #f9d71c;
+  opacity: 0.7;
+  font-family: "Special Elite", cursive;
+  border: none;
+  font-size: 2em;
+}
+
+#bubble:hover {
+  background-color: rgb(102, 94, 94);
+  color: black;
+}
+
+/* Modals */
+#upload-content {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 230px;
+  height: 150px;
+  position: absolute;
+  left: 30%;
+  /* top: 30%; */
+  /* margin: 20px 0; */
+  border: none;
+  -webkit-border-radius: 50% / 10%;
+  border-radius: 50% / 10%;
+  font: normal 100% / normal Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  text-indent: 0.1em;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+}
+/* Coordinator page  */
+#teachers {
+  text-align: center;
+  align-content: center;
+}
+
+.box {
+  border: 2px solid grey;
+}
+
+/* Content */
+#publicContent {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  top: 0;
+  border-radius: 42px 0px 149px 0px;
+  -moz-border-radius: 42px 0px 149px 0px;
+  -webkit-border-radius: 42px 0px 149px 0px;
+  border: 0px solid #000000;
+}
+
+#publiContent h5 {
+  padding-bottom: 20px;
+}
+
+/* Team Card */
+#tcard {
+  border-radius: 30px 0px 42px 0px;
+  -moz-border-radius: 30px 0px 42px 0px;
+  -webkit-border-radius: 30px 0px 42px 0px;
+  border: 0px solid #000000;
+  background-color: #e5e5e5;
+}
+
+#pGuideHome {
+  border-radius: 40px 38px 40px 39px;
+  -moz-border-radius: 40px 38px 40px 39px;
+  -webkit-border-radius: 40px 38px 40px 39px;
+  border: 5px solid #fff;
+  background-color: #c4f1be;
+}
+
+/* Error Page */
+#errorPage {
+  background-image: url("./raw/dog.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#errorPageContent {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+
+/* Our images */
+.Oimg {
+  border-bottom-left-radius: 20%;
+  border: 2px solid black;
+}

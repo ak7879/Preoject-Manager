@@ -1,0 +1,73 @@
+===Database pmanager
+
+== Table structure for table guide
+
+|------
+|Column|Type|Null|Default
+|------
+|//**g_id**//|int(5)|No|
+|g_name|varchar(30)|No|
+== Dumping data for table guide
+
+|1|Komal Chopra
+|2|Anshul
+|3|Bhatele Sir
+|4|Manoj Sir
+|5|Bhatele Sir
+|22|Dhermendra Tripati
+|23|Yograj Sharma
+|24|Mr. X
+|25|Mr. Y
+|26|Abhishek Rawat
+|27|add
+== Table structure for table teacher
+
+|------
+|Column|Type|Null|Default
+|------
+|//**t_id**//|int(5)|No|
+|t_name|varchar(30)|No|
+|designation|varchar(25)|No|
+|branch|varchar(10)|No|
+|**email**|varchar(30)|No|
+|password|varchar(32)|No|
+== Dumping data for table teacher
+
+|1|Kirtiraj Bhatele|Asst. Prof.|cse|kirtiraj@gmail.com|4800e84ee188439e8958f94577de6fa2
+== Table structure for table teams
+
+|------
+|Column|Type|Null|Default
+|------
+|//**team_id**//|int(5)|No|
+|p_name|varchar(30)|No|
+|p_type|varchar(5)|No|
+|p_description|varchar(250)|No|
+|g_id|int(5)|No|
+|**member_1**|varchar(12)|No|
+|**member_2**|varchar(12)|Yes|NULL
+|**member_3**|varchar(12)|Yes|NULL
+|uniqueId|varchar(30)|No|
+|pLink|varchar(200)|No|
+== Dumping data for table teams
+
+|10|Project Manager|minor|We are building a website to manage a project|4|Anshul|Abhishek|Bilal|123|ngdxngxghte
+|11|Prayas|minor|We are building a app to manage and clean our land.|22|lakshya|Deepak kumar|Manish kumar| |zsfcsdc
+|12|Attendance App|minor|We are building a App to manage students attendance.|23|Abhishek jai|Amit shukla|Suyash shukl| | 
+|13|Sports Management|minor|Building a website to host sports event.|4|Divyanshu|Deepak joshi|NULL| | 
+== Table structure for table user
+
+|------
+|Column|Type|Null|Default
+|------
+|fname|varchar(20)|No|
+|lname|varchar(20)|No|
+|**email**|varchar(30)|No|
+|profile|varchar(100)|No|
+|pwd|varchar(15)|No|
+|//**id**//|int(11)|No|
+|**rollnumber**|varchar(12)|No|
+== Dumping data for table user
+
+| | | | | |3| 
+|manish|kumar|masn@g.c|s|s|4|1
